@@ -1,0 +1,304 @@
+
+.xfce4-panel#XfcePanelWindow {
+    background-color: transparent;
+    border: none;
+}
+.xfce4-panel {
+    border: none;
+    border-radius: 0px;
+    color: transparent;
+    background-color: transparent;
+}
+
+#whiskermenu-button,
+#xfce-panel-toggle-button,
+.tasklist button,
+.systray-6,
+#sn-button,
+#pulseaudio-button,
+#clock-button,
+#actions-button
+{
+    border-radius: 8px;
+    border-bottom: 2px solid #BD93F9;
+    border-top: 1px solid #44475A;
+    background: #282a36;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px -5px 5px/*, rgba(0, 0, 0, 0.7) 0px -5px 6px*/;
+}
+
+
+#xfce4-notification-plugin,
+#xfce4-power-manager-plugin {
+    background: transparent;
+}
+
+#whiskermenu-button:checked,
+#xfce-panel-toggle-button:checked,
+.tasklist button:checked,
+.systray-6:checked,
+#sn-button:checked,
+#xfce4-notification-plugin:checked,
+#xfce4-power-manager-plugin:checked
+{
+    background: #44475A;
+    border-bottom: 2px solid #50FA7B;
+    border-top: 1px solid #626681;
+}
+
+#whiskermenu-button:hover,
+#xfce-panel-toggle-button:checked,
+.tasklist button:hover,
+.systray-6:hover,
+#sn-button:hover,
+#xfce4-notification-plugin:hover,
+#pulseaudio-button:hover,
+#clock-button:hover,
+#actions-button:hover {
+	background: #44475A;
+}
+
+#whiskermenu-button {
+background-color: transparent;
+    border: solid 2px #FFB86C;
+    color: #FFB86C;
+
+    border-radius: 2px 2px 15px 2px;
+
+    margin-left: 5px;
+    margin-right: 2px;
+
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 10px;
+
+    box-shadow: 0 0 1px #FFB86C, 0 0 2px #FFB86C;
+    text-shadow: 0 0 1px #FFB86C, 0 0 3px #FFB86C;
+}
+#whiskermenu-button:checked {
+    border-color: #50FA7B;
+    color: #50FA7B;
+    box-shadow: 0 0 1px #50FA7B, 0 0 2px #50FA7B;
+    text-shadow: 0 0 1px #50FA7B, 0 0 3px #50FA7B;
+}
+
+wnck-pager {
+color: #44475A;
+}
+
+#xfce-panel-toggle-button {
+    border-radius: 5px;
+    border: none;
+}
+
+.tasklist button {
+    margin-left: 1px;
+    margin-right: 1px;
+padding-left: 8px;
+padding-right: 7px;
+}
+
+.systray-6 {
+margin-left: 0px;
+padding-left: 8px;
+padding-right: 7px;
+}
+
+#sn-button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+padding-left: 7px;
+padding-right: 7px;
+}
+
+#xfce4-notification-plugin {
+margin-left: 0px;
+margin-right: 2px;
+padding-left: 8px;
+padding-right: 7px;
+}
+
+#pulseaudio-button {
+    background-color: transparent;
+    border: solid 2px #FFB86C;
+    color: #FFB86C;
+
+    border-radius: 7px 2px 7px 2px;
+    box-shadow: 0 0 1px #f69308, 0 0 2px #f69308;
+
+    margin-left: 2px;
+    margin-right: 3px;
+    padding-left: 8px;
+    padding-right: 7px;
+}
+#pulseaudio-button:checked {
+    color: #50FA7B;
+    border-color: #50FA7B;
+    box-shadow: 0 0 1px #50FA7B, 0 0 2px #50FA7B;
+}
+
+#clock-button {
+    border-radius: 1px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    min-width: 45px;
+
+    margin-left: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+}
+#clock-button label {
+    color: #FF5555;
+    /*text-shadow: 0 0 4px #8BE9FD;*/
+    /*text-shadow: 0 0 4px rgba(139, 233, 253, 0.7);*/
+    /*text-shadow: 0 0 4px rgba(80, 250, 123, 0.7);*/
+    text-shadow: 0 0 4px rgba(255, 85, 85, 0.7);
+}
+#clock-button:checked {
+    background: #44475A;
+    border-bottom: 2px solid #FFB86C;
+    border-right: 2px solid #FFB86C;
+    border-top: 1px solid #626681;
+}
+
+#actions-button {
+    background-color: transparent;
+    border: solid 2px #FFB86C;
+    color: #FFB86C;
+
+    border-radius: 7px 2px 7px 2px;
+
+    padding-bottom: 2px;
+
+    box-shadow: 0 0 1px #FFB86C, 0 0 2px #FFB86C;
+    text-shadow: 0 0 1px #FFB86C, 0 0 3px #FFB86C;
+
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 3px;
+    margin-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#actions-button:checked {
+    color: #FF5555;
+    border-color: #FF5555;
+    box-shadow: 0 0 1px #FF5555, 0 0 2px #FF5555;
+    text-shadow: 0 0 1px #FF5555, 0 0 3px #FF5555;
+}
+
+/* ############################################################################# */
+/* ############################################################################# */
+/* ############################################################################# */
+
+@define-color window_bg_color rgba(14, 15, 19, 1.00);
+@define-color window_fg_color rgba(215, 215, 210, 1.00);
+
+@define-color view_bg_color rgba(26, 27, 31, 1.00);
+@define-color view_fg_color rgba(232, 232, 226, 1.00);
+
+@define-color headerbar_bg_color rgba(14, 15, 19, 1.00);
+@define-color headerbar_fg_color rgba(215, 215, 210, 1.00);
+@define-color headerbar_border_color_color rgba(54, 55, 57, 1.00);
+@define-color headerbar_backdrop_color rgba(14, 15, 19, 1.00);
+
+@define-color sidebar_bg_color rgba(26, 27, 31, 1.00);
+@define-color sidebar_fg_color rgba(232, 232, 226, 1.00);
+@define-color sidebar_shade_color rgba(0, 0, 0, 0.08);
+@define-color sidebar_backdrop_color rgba(44, 45, 49, 1.00);
+
+@define-color secondary_sidebar_bg_color rgba(38, 39, 43, 1.00);
+@define-color secondary_sidebar_fg_color rgba(249, 249, 243, 1.00);
+@define-color secondary_sidebar_shade_color rgba(0, 0, 0, 0.08);
+@define-color secondary_sidebar_backdrop_color rgba(55, 56, 60, 1.00);
+
+@define-color card_bg_color rgba(33, 34, 38, 1.00);
+@define-color card_fg_color rgba(242, 242, 236, 1.00);
+
+@define-color thumbnail_bg_color rgba(33, 34, 38, 1.00);
+@define-color thumbnail_fg_color rgba(242, 242, 236, 1.00);
+
+@define-color dialog_bg_color rgba(26, 27, 31, 1.00);
+@define-color dialog_fg_color rgba(232, 232, 226, 1.00);
+
+@define-color popover_bg_color rgba(33, 34, 38, 1.00);
+@define-color popover_fg_color rgba(242, 242, 236, 1.00);
+
+@define-color shade_color rgba(0, 0, 0, 0.32);
+@define-color scrollbar_outline_color rgba(14, 15, 19, 0.50);
+
+@define-color accent_color rgba(255, 85, 85, 1.00);
+@define-color accent_bg_color rgba(255, 85, 85, 1.00);
+@define-color accent_fg_color rgba(0, 0, 0, 1.00);
+
+@define-color destructive_color rgba(253, 161, 160, 1.00);
+@define-color destructive_bg_color rgba(253, 161, 160, 1.00);
+@define-color destructive_fg_color rgba(0, 0, 0, 1.00);
+
+@define-color warning_color rgba(247, 224, 98, 1.00);
+@define-color warning_bg_color rgba(247, 224, 98, 1.00);
+@define-color warning_fg_color rgba(0, 0, 0, 1.00);
+
+@define-color success_color rgba(146, 207, 156, 1.00);
+@define-color success_bg_color rgba(146, 207, 156, 1.00);
+@define-color success_fg_color rgba(0, 0, 0, 1.00);
+
+@define-color accent_color rgba(255, 85, 85, 1.00);
+@define-color accent_bg_color rgba(255, 85, 85, 1.00);
+@define-color accent_fg_color rgba(0, 0, 0, 1.00);
+
+@define-color error_color rgba(253, 161, 160, 1.00);
+@define-color error_bg_color rgba(253, 161, 160, 1.00);
+@define-color error_fg_color rgba(0, 0, 0, 1.00);
+
+@define-color blue_1 rgba(156, 243, 243, 1.00);
+@define-color blue_2 rgba(152, 239, 239, 1.00);
+@define-color blue_3 rgba(148, 235, 235, 1.00);
+@define-color blue_4 rgba(119, 206, 206, 1.00);
+@define-color blue_5 rgba(90, 177, 178, 1.00);
+
+@define-color green_1 rgba(177, 253, 215, 1.00);
+@define-color green_2 rgba(175, 250, 213, 1.00);
+@define-color green_3 rgba(172, 247, 210, 1.00);
+@define-color green_4 rgba(142, 217, 181, 1.00);
+@define-color green_5 rgba(114, 187, 152, 1.00);
+
+@define-color yellow_1 rgba(255, 244, 161, 1.00);
+@define-color yellow_2 rgba(255, 243, 160, 1.00);
+@define-color yellow_3 rgba(255, 241, 158, 1.00);
+@define-color yellow_4 rgba(223, 210, 128, 1.00);
+@define-color yellow_5 rgba(193, 179, 97, 1.00);
+
+@define-color red_1 rgba(255, 191, 191, 1.00);
+@define-color red_2 rgba(255, 186, 186, 1.00);
+@define-color red_3 rgba(255, 181, 181, 1.00);
+@define-color red_4 rgba(226, 154, 155, 1.00);
+@define-color red_5 rgba(198, 129, 129, 1.00);
+
+@define-color orange_1 rgba(255, 186, 38, 1.00);
+@define-color orange_2 rgba(255, 179, 24, 1.00);
+@define-color orange_3 rgba(255, 173, 0, 1.00);
+@define-color orange_4 rgba(227, 147, 0, 1.00);
+@define-color orange_5 rgba(200, 122, 0, 1.00);
+
+@define-color purple_1 rgba(225, 142, 255, 1.00);
+@define-color purple_2 rgba(216, 134, 255, 1.00);
+@define-color purple_3 rgba(207, 125, 255, 1.00);
+@define-color purple_4 rgba(183, 102, 230, 1.00);
+@define-color purple_5 rgba(160, 79, 205, 1.00);
+@define-color light_0 rgba(0, 0, 0, 1.00);
+@define-color light_1 rgba(5, 5, 5, 1.00);
+@define-color light_2 rgba(27, 27, 27, 1.00);
+@define-color light_3 rgba(54, 54, 54, 1.00);
+@define-color light_4 rgba(84, 84, 84, 1.00);
+@define-color dark_0 rgba(115, 115, 115, 1.00);
+@define-color dark_1 rgba(148, 148, 148, 1.00);
+@define-color dark_2 rgba(182, 182, 182, 1.00);
+@define-color dark_3 rgba(218, 218, 218, 1.00);
+@define-color dark_4 rgba(255, 255, 255, 1.00);
