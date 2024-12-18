@@ -13,4 +13,7 @@
 - [picom](https://github.com/yshui/picom): lightweight X11 compositor with animations
 - [i3wm](https://i3wm.org/): i3 window manager - if you use i3 you can also use this config
 
+![image](https://github.com/user-attachments/assets/fb5be69c-3392-4a0f-ac38-baad298ac934)
+![image](https://github.com/user-attachments/assets/9db56b6a-b395-4355-9500-cc3b581e2b6a)
+
 
